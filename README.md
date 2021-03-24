@@ -9,13 +9,13 @@ This repo contains the code and data of the following paper accepted by [CVPR 20
 
 pytorch==1.5.0 
 
-numpy==1.18.2
+numpy>=1.18.2
 
-scikit-learn==0.22.2
+scikit-learn>=0.22.2
 
-munkres==1.1.2
+munkres>=1.1.2
 
-logging==0.5.1.2
+logging>=0.5.1.2
 
 ## Configuration
 
@@ -33,7 +33,7 @@ After setting the configuration and downloading datasets from the cloud desk, on
 python run.py --data 3
 ```
 
-You can get the following output:
+The expected outputs are as follows:
 
 ```bash
 ******** Training begin, use RobustLoss: 1.0*m, use gpu 0, batch_size = 1024, unaligned_prop = 0.5, NetSeed = 64, DivSeed = 249 ********
