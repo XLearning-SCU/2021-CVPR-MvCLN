@@ -3,7 +3,7 @@ This repo contains the code and data of the following paper accepted by [CVPR 20
 
 [Partially View-aligned Representation Learning with Noise-robust Contrastive Loss](http://pengxi.me/wp-content/uploads/2021/03/2021CVPR-MvCLNwith-supp.pdf)
 
-<img src="https://github.com/XLearning-SCU/2021-CVPR-MvCLN/figs/framework.png"  width="897" height="317" />
+<img src="https://github.com/XLearning-SCU/2021-CVPR-MvCLN/blob/main/figs/framework.png"  width="897" height="317" />
 
 ## Requirements
 
