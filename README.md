@@ -23,7 +23,7 @@ The hyper-parameters, the training options (including the ratiao of positive to 
 
 ## Datasets
 
-The Scene-15 and Reuters-dim10 datasets are placed in "datasets" folder. The NoisyMNIST and Caltech101 datasets could be downloaded from [Google clound]() or [Baidu cloud](https://pan.baidu.com/s/1NdgRH3k9Pq9SQjrorWSEeg) with password "rqv4".
+The Scene-15 and Reuters-dim10 datasets are placed in "datasets" folder. The NoisyMNIST and Caltech101 datasets could be downloaded from [Google clound](https://drive.google.com/drive/folders/1WFbxX1X_pNJX0bDRkbF577mRrviIcyKe?usp=sharing) or [Baidu cloud](https://pan.baidu.com/s/1NdgRH3k9Pq9SQjrorWSEeg) with password "rqv4".
 
 ## Usage
 
