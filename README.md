@@ -33,31 +33,6 @@ After setting the configuration and downloading datasets from the cloud desk, on
 python run.py --data 3
 ```
 
-The expected outputs are as follows:
-
-```bash
-******** Training begin, use RobustLoss: 1.0*m, use gpu 0, batch_size = 1024, unaligned_prop = 0.5, NetSeed = 64, DivSeed = 249 ********
-=======> Train epoch: 0/80
-margin = 5
-distance: pos. = 2.5, neg. = 2.5, true neg. = 2.5, false neg. = 2.49
-loss = 3.41, epoch_time = 12.07 s
-******** testing ********
-CAR=0.1012, kmeans: acc=0.1791, nmi=0.0435, ari=0.021
-******* neg_dist_mean >= 1.0 * margin, start using fine loss at epoch: 3 *******
-=======> Train epoch: 10/80
-distance: pos. = 0.76, neg. = 5.38, true neg. = 5.83, false neg. = 1.34
-loss = 0.09, epoch_time = 15.17 s
-******** testing ********
-CAR=0.8712, kmeans: acc=0.9462, nmi=0.8705, ari=0.8862
-......
-=======> Train epoch: 80/80
-distance: pos. = 0.25, neg. = 5.34, true neg. = 5.8, false neg. = 1.17
-loss = 0.03, epoch_time = 14.18 s
-******** testing ********
-CAR=0.8753, kmeans: acc=0.9459, nmi=0.8744, ari=0.8859
-******** End, training time = 1276.29 s ********
-```
-
 ## Citation
 
 If you find our work useful in your research, please consider citing:
